@@ -1,0 +1,19 @@
+{
+    "name": "htlw3r/dockerwebdemo",
+    "description": "Docker Setup for a web demo project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Htlw3r\\Dockerwebdemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WSF"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^4.2",
+        "twig/twig": "^3.17"
+    }
+}

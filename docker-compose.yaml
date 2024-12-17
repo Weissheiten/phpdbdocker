@@ -1,0 +1,7 @@
+services:
+  app:
+    image: stf/php-basic-with-db
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html
